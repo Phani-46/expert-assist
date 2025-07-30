@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expert Assist – Doorstep Services</title>
+  <link rel="icon" type="image/png" href=" " />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background-color: #ff6a00;
+      color: #fff;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header img {
+      height: 40px;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #fff;
+      text-decoration: none;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background-color: #fff5e6;
+    }
+    .hero h1 {
+      color: #ff6a00;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services, .how-it-works {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+    .card {
+      background: #f4f4f4;
+      padding: 1rem;
+      border-radius: 8px;
+      width: 220px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .contact input, .contact textarea {
+      padding: 0.5rem;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    .contact button, .whatsapp-btn {
+      background-color: #ff6a00;
+      color: white;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Expert Assist Logo" />
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Expert Assist</h1>
+    <p>Doorstep Services in Telangana & Andhra Pradesh</p>
+    <a href="#contact"><button class="whatsapp-btn">Book Now</button></a>
+  </div>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>We provide trusted, on-time doorstep services including AC repair, water purifier servicing, carpenter work, and bathroom cleaning in Telugu, Hindi & English.</p>
+  </section>
+
+  <section class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">AC Repair & Service</div>
+      <div class="card">Water Purifier Service</div>
+      <div class="card">Carpenter Work</div>
+      <div class="card">Bathroom Cleaning</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>How It Works</h2>
+    <div class="how-it-works">
+      <div class="card">1. Book Online</div>
+      <div class="card">2. We Visit Your Location</div>
+      <div class="card">3. Service Completed</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Why Choose Us?</h2>
+    <ul>
+      <li>Trusted Technicians</li>
+      <li>Fast Response</li>
+      <li>Multi-language Support</li>
+      <li>Affordable Pricing</li>
+    </ul>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h2>Contact & Booking</h2>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="tel" name="phone" placeholder="Your Phone Number" required />
+      <input type="text" name="service" placeholder="Required Service" required />
+      <textarea name="address" placeholder="Your Address" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <br />
+    <a href="https://wa.me/917731986799" target="_blank">
+      <button class="whatsapp-btn">Message on WhatsApp</button>
+    </a>
+  </section>
+
+  <footer>
+    &copy; 2025 Expert Assist | Languages: Telugu | Hindi | English
+  </footer>
+</body>
+</html>
